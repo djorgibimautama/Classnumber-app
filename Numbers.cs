@@ -15,7 +15,7 @@ namespace Overloading_Method
 
         public int FindMinimum(int number1, int number2, float number3)
         {
-            return Math.Min(number1, Math.Min(number2, (Int)Number3));
+            return Math.Min(number1, Math.Min(number2, (int)Number3));
         }
 
         public int FindMaximum(int number1, int number2)
@@ -25,7 +25,7 @@ namespace Overloading_Method
 
         public int FindMaximum(int number1, int number2, float number3)
         {
-            return Math.Max(number1, Math.Max(number2, (Int)Number3));
+            return Math.Max(number1, Math.Max(number2, (int)Number3));
         }
     }
 }
